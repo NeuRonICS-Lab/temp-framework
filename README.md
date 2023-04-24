@@ -32,12 +32,10 @@ Contents of the Repository
 Instructions
     1. To obtain the results reported in the paper, run the inference codes, by loading the trained weight values saved in the Models folder. 
         eg. For the MLP Model, download the MLP_Inference.py, Layers_Train.py files and the Models Folder, to a Python environment, and run the command:  python MLP_Inference.py
-
     2. To train the models, download the respective folders, and run the *_Train.py files.
         eg. For training the MLP model, run the command: python MLP_Train.py. 
         
 Environment Settings
-
     Package                     Version  
 1. tensorflow-gpu               2.8.0
 2. keras                        2.8.0
