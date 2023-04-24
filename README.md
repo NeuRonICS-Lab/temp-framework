@@ -1,5 +1,5 @@
 # Time-to-Event-Margin Propagation (TEMP)-framework 
-Sample codes to accompany the paper titled "Processing-in-Interconnect (π2): Neuromorphic Computing with AER using Time-to-Event-Margin Propagation"
+Training and inference codes on the MNIST Dataset to accompany the paper titled "Neuromorphic Computing with AER using Time-to-Event-Margin Propagation"
 
 Contents of the Repository
 1. MLP784X100X10 folder - 
