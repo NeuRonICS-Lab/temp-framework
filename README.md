@@ -30,10 +30,10 @@ Contents of the Repository
         a. Batch16_OldW_CNN16and32_CNNHidDO0p1_Hid500_initialW.hdf5 - weight initialization
 
 Instructions
-    1. To obtain the results reported in the paper, run the inference codes, by loading the trained weight values saved in the Models folder. 
+1. To obtain the results reported in the paper, run the inference codes, by loading the trained weight values saved in the Models folder. 
         eg. For the MLP Model, download the MLP_Inference.py, Layers_Train.py files and the Models Folder, to a Python environment, and run the command:  
         python MLP_Inference.py
-    2. To train the models, download the respective folders, and run the *_Train.py files.
+2. To train the models, download the respective folders, and run the *_Train.py files.
         eg. For training the MLP model, run the command: python MLP_Train.py. 
         
 Environment Settings
