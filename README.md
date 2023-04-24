@@ -46,5 +46,3 @@ Environment Settings
 6. ipython                      8.5.0
 7. pandas                       1.5.0
 
-Links to Datasets used in the paper
-MNIST: https://www.kaggle.com/code/vincentlefoulon/pytorch-mnist (The MNIST dataset can be downloaded from torchvision.datasets.MNIST as mentioned under DataLoading)
