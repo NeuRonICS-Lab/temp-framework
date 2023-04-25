@@ -54,11 +54,18 @@ Instructions
 Environment Settings
 
     Package                     Version  
+    
 1. tensorflow-gpu               2.8.0
+
 2. keras                        2.8.0
+
 3. Keras-Preprocessing          1.1.2
+
 4. keras-tuner                  1.1.2
+
 5. ipykernel                    6.16.2
+
 6. ipython                      8.5.0
+
 7. pandas                       1.5.0
 
