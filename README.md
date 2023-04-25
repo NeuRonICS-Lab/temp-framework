@@ -52,8 +52,6 @@ Instructions
         eg. For training the MLP model, run the command: python MLP_Train.py. 
         
 Environment Settings
-
-    Package                     Version  
     
 1. tensorflow-gpu               2.8.0
 
