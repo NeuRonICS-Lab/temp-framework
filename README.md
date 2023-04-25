@@ -5,7 +5,9 @@ Contents of the Repository
 1. MLP784X100X10 folder - 
 
     a. MLP_Train.py - Tensorflow code to train a fully-connected network with layers implementing TEMP computation
+    
     b. MLP_Inference.py - Tensorflow code for running inference on a saved model
+    
     c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
 
     d. Models folder -
@@ -13,8 +15,11 @@ Contents of the Repository
         a. model_MLP_100hid_initialW.hdf5 - weight initialization
 
 2. CNN_bn_last_layer folder - 
+
     a. MP_CNN_Train_one_bn.py - Tensorflow code to train a convolution network with layers implementing TEMP computation
+    
     b. MP_CNN_Inference_one_bn.py - Tensorflow code for running inference on a saved model
+    
     c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
 
     d. Models folder -
@@ -22,8 +27,11 @@ Contents of the Repository
         a. model_Batch32_Hid15_initialW_oneBN.hdf5 - weight initialization
 
 3. CNN_2_conv_layer folder - 
+
     a. MP_CNN_Train.py - Tensorflow code to train a 2-convolution network with layers implementing TEMP computation
+    
     b. MP_CNN_Inference.py - Tensorflow code for running inference on a saved model
+    
     c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
 
     d. Models folder -
