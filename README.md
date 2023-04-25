@@ -3,6 +3,7 @@ Training and inference codes on the MNIST Dataset to accompany the paper titled 
 
 Contents of the Repository
 1. MLP784X100X10 folder - 
+
     a. MLP_Train.py - Tensorflow code to train a fully-connected network with layers implementing TEMP computation
     b. MLP_Inference.py - Tensorflow code for running inference on a saved model
     c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
