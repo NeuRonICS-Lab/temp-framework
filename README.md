@@ -11,8 +11,10 @@ Contents of the Repository
     c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
 
     d. Models folder -
+    
         a. model_MLP_100hid.hdf5 - saved weights of the 784x100x10 network that give a test accuracy of 97.8%
-        a. model_MLP_100hid_initialW.hdf5 - weight initialization
+        
+        b. model_MLP_100hid_initialW.hdf5 - weight initialization
 
 2. CNN_bn_last_layer folder - 
 
@@ -23,8 +25,10 @@ Contents of the Repository
     c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
 
     d. Models folder -
+    
         a. model_Batch32_Hid15_oldW_oneBN.hdf5 - saved weights of the CNN network that give a test accuracy of 97.8%
-        a. model_Batch32_Hid15_initialW_oneBN.hdf5 - weight initialization
+        
+        b. model_Batch32_Hid15_initialW_oneBN.hdf5 - weight initialization
 
 3. CNN_2_conv_layer folder - 
 
@@ -35,8 +39,10 @@ Contents of the Repository
     c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
 
     d. Models folder -
+    
         a. Batch16_OldW_CNN16and32_CNNHidDO0p1_Hid500_W.hdf5 - saved weights of the CNN network that give a test accuracy of 99.2%
-        a. Batch16_OldW_CNN16and32_CNNHidDO0p1_Hid500_initialW.hdf5 - weight initialization
+        
+        b. Batch16_OldW_CNN16and32_CNNHidDO0p1_Hid500_initialW.hdf5 - weight initialization
 
 Instructions
 1. To obtain the results reported in the paper, run the inference codes, by loading the trained weight values saved in the Models folder. 
