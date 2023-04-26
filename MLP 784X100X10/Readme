@@ -1,0 +1,7 @@
+MLP784X100X10 folder - 
+    a. MLP_Train.py - Tensorflow code to train a fully-connected network with layers implementing TEMP computation
+    b. MLP_Inference.py - Tensorflow code for running inference on a saved model
+    c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
+    d. Models folder -
+        a. model_MLP_100hid.hdf5 - saved weights of the 784x100x10 network that give a test accuracy of 97.7%
+        a. model_MLP_100hid_initialW.hdf5 - weight initialization
