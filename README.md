@@ -2,53 +2,33 @@
 Training and inference codes on the MNIST Dataset to accompany the paper titled "Neuromorphic Computing with AER using Time-to-Event-Margin Propagation"
 
 Contents of the Repository
-1. MLP784X100X10 folder - 
 
-    a. MLP_Train.py - Tensorflow code to train a fully-connected network with layers implementing TEMP computation
-    
-    b. MLP_Inference.py - Tensorflow code for running inference on a saved model
-    
-    c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
+1. Consists of the 3 folders to implement the followingfully connected and convolution network architectures. 
 
-    d. Models folder -
-    
-        a. model_MLP_100hid.hdf5 - saved weights of the 784x100x10 network that give a test accuracy of 97.8%
-        
-        b. model_MLP_100hid_initialW.hdf5 - weight initialization
+    a. 3-layer fully connected network (MLP784X100X10)
 
-2. CNN_bn_last_layer folder - 
+    b. CNN network with BN in the ouput layer (CNN_bn_last_layer)
 
-    a. MP_CNN_Train_one_bn.py - Tensorflow code to train a convolution network with layers implementing TEMP computation
-    
-    b. MP_CNN_Inference_one_bn.py - Tensorflow code for running inference on a saved model
-    
-    c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
+    c. CNN with BN after every successive layer (CNN_2_conv_layer)  
 
-    d. Models folder -
-    
-        a. model_Batch32_Hid15_oldW_oneBN.hdf5 - saved weights of the CNN network that give a test accuracy of 97.8%
-        
-        b. model_Batch32_Hid15_initialW_oneBN.hdf5 - weight initialization
+2. Each folder consists of the following files:
 
-3. CNN_2_conv_layer folder - 
+    a. Layers_Train.py -  Code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
 
-    a. MP_CNN_Train.py - Tensorflow code to train a 2-convolution network with layers implementing TEMP computation
-    
-    b. MP_CNN_Inference.py - Tensorflow code for running inference on a saved model
-    
-    c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
+    b. *_Train.py - Train a TEMP based neural network on the MNIST Dataset
 
-    d. Models folder -
-    
-        a. Batch16_OldW_CNN16and32_CNNHidDO0p1_Hid500_W.hdf5 - saved weights of the CNN network that give a test accuracy of 99.2%
-        
-        b. Batch16_OldW_CNN16and32_CNNHidDO0p1_Hid500_initialW.hdf5 - weight initialization
+    c. *_Inference.py -  Code for running inference on a trained TEMP based network.
 
+    d. Models Folder - consists of two files, that save the initial and trained weight configurations for different network architectures.
+    
 Instructions
 1. To obtain the results reported in the paper, run the inference codes, by loading the trained weight values saved in the Models folder. 
-        eg. For the MLP Model, download the MLP_Inference.py, Layers_Train.py files and the Models Folder, to a Python environment, and run the command:  
+
+        eg. For the MLP Model, download the MLP_Inference.py, Layers_Train.py files and the Models Folder, and run the command:  
         python MLP_Inference.py
+        
 2. To train the models, download the respective folders, and run the *_Train.py files.
+
         eg. For training the MLP model, run the command: python MLP_Train.py. 
         
 Environment Settings
