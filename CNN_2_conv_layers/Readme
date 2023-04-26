@@ -1,0 +1,8 @@
+CNN_2_conv_layer folder - 
+    a. MP_CNN_Train.py - Tensorflow code to train a 2-convolution network with layers implementing TEMP computation
+    b. MP_CNN_Inference.py - Tensorflow code for running inference on a saved model
+    c. Layers_Train.py - Tensorflow code to create custom layers (Fully connected, Convolution layers) that incorporate TEMP based computations
+
+    d. Models folder -
+        a. Batch16_OldW_CNN16and32_CNNHidDO0p1_Hid500_W.hdf5 - saved weights of the CNN network that give a test accuracy of 99.1%
+        a. Batch16_OldW_CNN16and32_CNNHidDO0p1_Hid500_initialW.hdf5 - weight initialization
